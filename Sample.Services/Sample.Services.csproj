@@ -5,4 +5,9 @@
     <Company>Joblogic</Company>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Sample.Domains\Sample.Domains.csproj" />
+    <ProjectReference Include="..\Sample.Repositories\Sample.Repositories.csproj" />
+  </ItemGroup>
+
 </Project>
